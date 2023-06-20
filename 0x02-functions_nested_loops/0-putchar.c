@@ -1,20 +1,16 @@
-#include main.h
+#include <unistd.h>
 /**
- * main - prints _putchar
- * _putchar: prints the alphabets putchar
- * Return: always 0
- */
-
+* main - Entry point of the program
+*
+* Return: Always 0(Success)
+*/
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
+	char str[] = "_putchar\n";
+	int length = sizeof(str) - 1;
+
+	write(1, str, length);
+
 	return (0);
+
 }
