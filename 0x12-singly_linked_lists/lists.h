@@ -4,8 +4,8 @@
 /*
  * File: lists.h
  * Auth: David James Taiye
- * Desc: Header file containing prototypes and definitions for all functions
- *       and types written in the 0x11-singly_linked_lists directory.
+ * Desc: Header files containing prototypes and definitions for all function
+ *       and type written in the 0x11-singly_linked_lists directory.
  */
 
 #include <stdlib.h>
